@@ -8,7 +8,7 @@ I de designval vi gjort har vi jobbat med kontraster och att leka med ljussättn
 För att skapa en enhetlig design, efterfölj dessa riktlinjer: 
 - **Logotyp** Lumina-logotyp finns att hitta som SVG-fil i assets-mappen. 
 - **Typsnitt** Alla typsnitt som används går att hitta på Google fonts. De typsnitt som används är: *Nabla* (för logotyp och rubrik nivå ett), *Shantell Sans* (för länkar) och *Montserrat*. För detaljerad information om vad som gäller för de olika rubriknivåerna finns det specificerat på Figma under "Components". 
-- **Bilder** De bilder som används finns att hitta i images-mappen som ligger i mappen som heter "assets". Allt bildmaterial kommer från Pexels och finns att hitta [här:](https://www.pexels.com/collections/bartender-pcftxy5/). Bilderna är inte berabetade utan de som ligger i assets mappen är i orginalformat. Därför kan det vara en god ide att komprimera de för att spara på plats. Vissa bilder är även croppade i designen, så även det behöver ni ta hänsyn till. 
+- **Bilder** De bilder som används finns att hitta i images-mappen som ligger i mappen som heter "assets". Allt bildmaterial kommer från Pexels och finns att hitta [här](https://www.pexels.com/collections/bartender-pcftxy5/). Bilderna är inte berabetade utan de som ligger i assets mappen är i orginalformat. Därför kan det vara en god ide att komprimera de för att spara på plats. Vissa bilder är även croppade i designen, så även det behöver ni ta hänsyn till. 
 - **Videos** Vi använder oss av två videoklipp som visas på home-page, en video i liggande format för desktopversionen samt en video i stående format för mobile/tablet. Eftersom vi inte har jobbat med rörligt format tidigare i kursen så anser vi att det är okej om ni byter ut videofilmerna till bilder om det visar sig vara ett för stort problem. Vi har inte valt ut några likvärdiga bilder som ni kan använda istället så välj antingen ut något från bildbiblioteket själva eller kontakta oss för hjälp med urval. 
 - **Illustrationer** Har skapats i Photoshop av Nicole Sjöberg-Silfverling och finns att hitta i assets-mappen. 
 - **Avstånd** Alla avstånd följer en skalning där minimiavståndet är 32px och därefter fördubblas successivt (32px, 64px, 128px osv.).
@@ -19,7 +19,7 @@ För att skapa en enhetlig design, efterfölj dessa riktlinjer:
 - **Användarfeedback** Efter att användaren har klickat på "skicka förfrågan" knappen visas ett popupfönster som meddelar användaren att förfrågan har skickats. En designmall för denna finns tillgänglig för samtliga enheter i Figma. 
 
 ### Figma 
-Designen har tagits fram i Figma och finns att hitta [här:](https://www.figma.com/design/8UkUo4RaxWnBDtNdQGJknp/Surikaternas-design?node-id=3-4&p=f&t=mIUYUTy1jY6kNu84-0).
+Designen har tagits fram i Figma och finns att hitta [här](https://www.figma.com/design/8UkUo4RaxWnBDtNdQGJknp/Surikaternas-design?node-id=3-4&p=f&t=mIUYUTy1jY6kNu84-0).
  
 **Komponenter** hittas under "Components". Följande komponenter hittar ni där:
 - Logotyp
