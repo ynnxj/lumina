@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/fed24d-grafiska-verktyg-individuell-PotoVic/",
+  base: "/fed24d-grafiska-verktyg-surikaterna/",
   plugins: [
     vue(),
     vueDevTools(),
