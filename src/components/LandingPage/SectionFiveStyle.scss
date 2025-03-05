@@ -1,15 +1,17 @@
 .SectionFive{
     background-color: #D7D3CB;
-    width: 1440px;
+    width: 100%;
     height: 870px;
     display: grid;
     grid-template-columns: repeat(12, 1fr); 
     gap: 32px;
     align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.178);
+    border-left: 1px solid rgba(0, 0, 0, 0.178);
     &TextBox{
         width: 555px;
         height: 741px;
-        grid-column:  2 / span 5;
+        grid-column:  3 / span 5;
         h1{
             font-family: "Montserrat", sans-serif;
             margin-top: 30px;
@@ -51,7 +53,7 @@
     }
     &Image{
         background-color: aqua;
-        width: 440px;
+        width: 550px;
         height: 741px;
         grid-column:  8 /  12;
         img{

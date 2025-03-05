@@ -1,24 +1,27 @@
 .SectionThree{
     background-color: #D7D3CB;
-    width: 1440px;
+    width: 100%;
     height: 652px;
     display: grid;
     grid-template-columns: repeat(12, 1fr); 
     gap: 32px;
     align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.178);
+    border-left: 1px solid rgba(0, 0, 0, 0.178);
     &Image{
-        width: 438px;
+        width: 448px;
         height: 524px;
-        grid-column:  2 / span 4;
+        grid-column:  3 / span 4;
         img{
             width: 100%;
             height: 100%;
+            object-fit: cover;
         }
     }
     &TextBox{
         width: 555px;
         height: 524px;
-        grid-column:  7 / span 7;
+        grid-column:  8 / span 7;
         h1{
             font-family: "Montserrat", sans-serif;
             margin-top: 50px;
