@@ -1,6 +1,6 @@
 <script setup>
-import SectionThree from '@/components/SectionThree.vue';
-import SectionFive from '@/components/SectionFive.vue';
+import SectionThree from '@/components/LandingPage/SectionThree.vue';
+import SectionFive from '@/components/LandingPage/SectionFive.vue';
 </script>
 
 
