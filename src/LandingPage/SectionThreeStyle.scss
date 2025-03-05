@@ -39,14 +39,23 @@
             background-color: transparent;
             border: none;
             color: #283618;
-            width: 150px;
-            height: 25px;
+            width: 165px;
+            height: 35px;
             font-size: 1.5rem;
             text-decoration: underline;
             text-transform: uppercase;
             margin-top: 20px;
             float: right;
             cursor: pointer;
+            &:hover{
+                font-weight: bold;
+            }
+            &:visited{
+                color: #E2A31C;
+            }
+            &:focus{
+                border: 1px solid black;
+            }
 
         }
     }
