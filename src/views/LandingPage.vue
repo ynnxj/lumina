@@ -1,7 +1,8 @@
 <script setup>
 import SectionOne from '@/components/SectionOne.vue';
-import SectionThree from '@/components/SectionThree.vue';
-import SectionFive from '@/components/SectionFive.vue';
+import SectionThree from '@/components/LandingPage/SectionThree.vue';
+import SectionFour from '@/components/LandingPage/SectionFour.vue';
+import SectionFive from '@/components/LandingPage/SectionFive.vue';
 </script>
 
 
@@ -9,5 +10,6 @@ import SectionFive from '@/components/SectionFive.vue';
 <template>
     <SectionOne />
     <SectionThree />
+    <SectionFour />
     <SectionFive />
 </template>
