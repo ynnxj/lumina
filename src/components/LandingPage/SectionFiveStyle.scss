@@ -6,6 +6,8 @@
     grid-template-columns: repeat(12, 1fr); 
     gap: 32px;
     align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.178);
+    border-left: 1px solid rgba(0, 0, 0, 0.178);
     &TextBox{
         width: 555px;
         height: 741px;
