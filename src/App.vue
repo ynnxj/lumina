@@ -1,11 +1,10 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-
-import SectionThree from './landingPage/SectionThree.vue'
+import LandingPage from './views/LandingPage.vue';
 </script>
 
 <template>
- <SectionThree />
+    <LandingPage/>
 </template>
 
 <style scoped>

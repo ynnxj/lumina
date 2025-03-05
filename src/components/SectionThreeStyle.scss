@@ -9,7 +9,6 @@
     &Image{
         width: 438px;
         height: 524px;
-        background-color: aqua;
         grid-column:  2 / span 4;
         img{
             width: 100%;
@@ -19,7 +18,6 @@
     &TextBox{
         width: 555px;
         height: 524px;
-        
         grid-column:  7 / span 7;
         h1{
             font-family: "Montserrat", sans-serif;
