@@ -1,0 +1,49 @@
+section {
+  background-color: #283618;
+  color: #D7D3CB;
+  height: 480px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+  align-items: center;
+  
+  .text-block {
+    display: grid;
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 9;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 32px;
+    font-style: italic;
+    font-weight: 300;
+
+    span {
+      text-align: right;
+      padding-top: 32px;
+    }
+  }
+}
+
+//Tablet version
+@media screen and (max-width: 1000px) {
+  section {
+    grid-template-columns: repeat(8, 1fr);
+
+    .text-block {
+      grid-column-start: 2;
+      grid-column-end: 7;
+  
+      p {
+        font-size: 16px;
+      }
+    }
+  }  
+}
+
+//Mobile version
+@media screen and (max-width: 767px) {
+  section {
+    display: none;
+  }
+}

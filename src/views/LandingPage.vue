@@ -4,6 +4,7 @@ import SectionThree from '@/components/LandingPage/SectionThree.vue';
 import SectionFour from '@/components/LandingPage/SectionFour.vue';
 import SectionFive from '@/components/LandingPage/SectionFive.vue';
 import HistorySection from '@/components/SectionTwoHistory.vue';
+import SectionSix from '@/components/LandingPage/SectionSix.vue';
 </script>
 
 <template>
@@ -12,4 +13,5 @@ import HistorySection from '@/components/SectionTwoHistory.vue';
     <SectionThree />
     <SectionFour />
     <SectionFive />
+    <SectionSix />
 </template>
