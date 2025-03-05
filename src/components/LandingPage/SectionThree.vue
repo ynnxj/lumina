@@ -5,7 +5,7 @@
 <template>
     <div class="SectionThree">
         <div class="SectionThreeImage">
-           <img src="../assets/images/images-and-videos/home-page/lumina-classic.jpg" alt="Lumina Classic">
+           <img src="/src/assets/images/images-and-videos/home-page/lumina-classic.jpg" alt="Lumina Classic">
         </div>
         <div class="SectionThreeTextBox">
             <h1>Luminas Signatur</h1>
@@ -18,5 +18,4 @@
 
 <style scoped>
     @import 'SectionThreeStyle.scss';
-
 </style>
