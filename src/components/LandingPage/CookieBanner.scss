@@ -97,3 +97,30 @@
         }
     }
 }
+@media (max-width: 768px) {
+    .cookie-banner {
+        height: 50vh;
+        padding: 20px;
+        margin: 0;
+
+        .cookie-container {
+            height: auto;
+            margin: 0 auto !important;
+
+            .cookie-lumina {
+                font-size: 18px;
+            }
+
+            .cookie-text {
+                font-size: 14px;
+                line-height: 2.0;
+            }
+
+            .cookie-buttons {
+                margin-top: 20px;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+}
