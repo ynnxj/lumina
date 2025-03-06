@@ -1,11 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import LandingPage from './views/LandingPage.vue';
 
 </script>
 
 <template>
-    <LandingPage/>
+  <RouterLink to="/home">Home</RouterLink>
+  <RouterLink to="/order">Order</RouterLink>
+
+  <RouterView />
 </template>
 
 <style scoped>
