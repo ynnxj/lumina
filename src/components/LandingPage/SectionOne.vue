@@ -15,7 +15,9 @@
       </h1>
 
       <div class="btn-container">
-        <button class="meny">Meny</button>
+        <router-link to="/menu">
+          <button class="meny">Meny</button>
+        </router-link>
         <button class="book">Boka bord</button>
       </div>
     </div>

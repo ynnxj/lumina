@@ -7,5 +7,5 @@
 </template>
 
 <style scoped>
-  @import 'SectionOneOrderStyle.scss';
+  @import 'SectionOneBookStyle.scss';
 </style>

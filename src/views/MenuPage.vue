@@ -1,1 +1,7 @@
-@/components/LandingPage/SectionThree.vue@/components/LandingPage/SectionFive.vue
+<script setup>
+  import SectionOne from '@/components/MenuPage/SectionOne.vue';
+</script>
+
+<template>
+  <SectionOne />
+</template>
