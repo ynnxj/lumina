@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.booking-page2 {
+    background-color: #283618;
+    color: #D7D3CB; 
+    width: 100%;
+    
+}
+
+.booking-section-over {
+    border: solid red;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px;
+    align-items: flex-start; 
+    font-family: "Montserrat", sans-serif; 
+
+    .booking-title {
+        margin-bottom: 32px;
+    }
+    
+    h2 {
+        color: #F4C96D;
+        font-size: 32px;
+        text-transform: uppercase;
+         
+
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 32px;
+        
+        
+    }
+
+    .booking-info-over {
+        margin-bottom: 10px;
+    }
+
+    .booking-content {
+        grid-column: 2 / span 6;
+        display: flex;
+        flex-direction: column;
+        border: solid red;
+        height: 276px;
+        width: 783px;
+    }
+
+    .info-book {
+        grid-column: 9 / span 3;
+        display: flex;
+        justify-content: center;
+        align-self: flex-start; 
+        border: solid red;
+
+        .book-image {
+            width: 317px;
+            display: flex;
+            align-self: flex-start; 
+        }
+    }
+}

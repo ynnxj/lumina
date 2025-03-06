@@ -19,19 +19,11 @@
       </div>
 
       <div class="history-image-container">
-        <img
-          class="history-main-image"
-          :src="barImage"
-          alt="Daniel Tending Lumina Bar"
-        />
+        <img class="history-main-image":src="barImage"alt="Daniel Tending Lumina Bar"/>
       </div>
 
       <div class="history-drinks">
-        <img
-          class="history-drinks-image"
-          :src="drinksImage"
-          alt="Fyra drinkar"
-        />
+        <img class="history-drinks-image":src="drinksImage"alt="Fyra drinkar"/>
       </div>
     </div>
   </section>
