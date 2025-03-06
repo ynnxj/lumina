@@ -1,21 +1,45 @@
 main {
-  h2 {
-    font-family: "Nabla", system-ui;
-    text-transform: uppercase;
-    font-size: 6.5rem;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    override-colors: #F4C96D;
-  }
+  width: 100%;
 
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 651px;
+    position: relative;
+    background-image: url(/src/assets/images/images-and-videos/booking-page/stir.jpg);
+    background-size: cover;
+
+    .book-img {
+      position: relative;
+      width: 438px;
+      height: 98px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    .container {
+      height: 482px;
+
+      .book-img {
+        width: 336px;
+        height: 79px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 765px) {
+  main {
+    .container {
+    height: 283px;
+
+      .book-img {
+        width: 312px;
+        height: 63px;
+      }
+    }
   }
 }
