@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: none;
+  background-color: #283618;
+  margin-top: -1px;
   .LogoBox {
     background-color: #283618;
     width: 100%;
@@ -18,6 +19,7 @@
     }
   }
   .FooterInfoBox {
+    border: 1px solid #d7d3cb;
     background-color: #d7d3cb;
     width: 100%;
     height: 100%;
@@ -26,6 +28,7 @@
     justify-content: center;
     align-items: center;
     color: #283618;
+    
     h2 {
       font-size: 2rem;
       font-weight: bold;
@@ -38,6 +41,7 @@
       width: 300px;
     }
     nav {
+      
       li {
         font-size: 1.7rem;
         list-style: none;
@@ -84,6 +88,7 @@
     flex-wrap: wrap;
     width: 100%;
     height: 388px;
+    
     .LogoBox {
       width: 50%;
       height: 100%;
