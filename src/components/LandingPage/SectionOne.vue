@@ -18,7 +18,10 @@
         <router-link to="/menu">
           <button class="meny">Meny</button>
         </router-link>
-        <button class="book">Boka bord</button>
+        <router-link to="/book">
+          <button class="book">Boka bord</button>
+        </router-link>
+
       </div>
     </div>
   </main>
