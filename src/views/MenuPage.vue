@@ -1,7 +1,7 @@
 <script setup>
-    import SectionOne from '@/components/MenuPage/SectionOne.vue';
+  import SectionOne from '@/components/MenuPage/SectionOne.vue';
 </script>
 
 <template>
-    <SectionOne />
+  <SectionOne />
 </template>

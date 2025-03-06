@@ -1,0 +1,111 @@
+.FooterSection {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: none;
+  .LogoBox {
+    background-color: #283618;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  .FooterInfoBox {
+    background-color: #d7d3cb;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #283618;
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      width: 300px;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 1.7rem;
+      margin-top: 20px;
+      width: 300px;
+    }
+    nav {
+      li {
+        font-size: 1.7rem;
+        list-style: none;
+        margin-top: 20px;
+        width: 300px;
+        text-decoration: underline;
+        cursor: pointer;
+        a {
+          &:hover {
+            font-weight: bold;
+          }
+          &:visited {
+            color: #e2a31c;
+          }
+          &:focus {
+            border: 1px solid black;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1294px) {
+    .FooterSection {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+        .LogoBox {
+          width: 50%;
+          height: 100%;
+        }
+        .FooterInfoBox {
+          width: 630px;
+          height: 100%;
+        }
+      }
+}
+
+@media (max-width: 768px) {
+  .FooterSection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 388px;
+    .LogoBox {
+      width: 50%;
+      height: 100%;
+    }
+    .FooterInfoBox {
+      width: 50%;
+      height: 100%;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .FooterSection {
+    display: flex;
+    flex-direction: row;
+    
+    .LogoBox {
+      width: 100%;
+      
+    }
+    .FooterInfoBox {
+      width: 100%;
+      
+    }
+  }
+}

@@ -6,6 +6,7 @@ import SectionFive from '@/components/LandingPage/SectionFive.vue';
 import HistorySection from '@/components/LandingPage/SectionTwoHistory.vue';
 import SectionSix from '@/components/LandingPage/SectionSix.vue';
 import CookieBanner from '@/components/LandingPage/CookieBanner.vue';
+import FooterSection from '@/components/FooterSection.vue';
 
 </script>
 
@@ -16,6 +17,6 @@ import CookieBanner from '@/components/LandingPage/CookieBanner.vue';
     <SectionFour />
     <SectionFive />
     <SectionSix />
-
-    <CookieBanner /> <!--ligga sist -->
+    <CookieBanner />
+    <FooterSection />
 </template>
