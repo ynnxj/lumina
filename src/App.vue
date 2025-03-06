@@ -1,10 +1,15 @@
 <script setup>
-import { RouterView } from 'vue-router'
+import { RouterLink, RouterView } from 'vue-router'
 
 </script>
 
 <template>
-    <RouterView/>
+  <RouterLink to="/home"></RouterLink>
+  <RouterLink to="/book"></RouterLink>
+  <RouterLink to="/menu"></RouterLink>
+
+  <RouterView />
+
 </template>
 
 <style scoped>
