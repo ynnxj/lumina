@@ -1,137 +1,177 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden; 
-    font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
+  font-family: "Montserrat", sans-serif;
 }
 
 .history {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    min-height: 100vh;
-    padding: 50px 0;
-    background-color: #283618;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 50px 0;
+  background-color: #283618;
 
+  .history-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto auto;
+    gap: 20px;
+    width: 90%;
+    align-items: center;
+    color: #D7D3CB;
+    margin: 0 auto;
+  }
+
+  .lumina-history {
+    grid-column: 2 / span 5;
+    font-size: 32px;
+    color: #F4C96D;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin-top: 60px;
+  }
+
+  .history-text {
+    grid-column: 2 / span 5;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    line-height: 2.1;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+  }
+
+  .history-image-container {
+    grid-column: 8 / span 4;
+    grid-row: 1 / span 3;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+
+    .history-main-image {
+      position: absolute;
+      left: -140px;
+      width: calc(100% + 140px);
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .history-drinks {
+    grid-column: 5 / span 3;
+    grid-row: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -14rem;
+
+    .history-drinks-image {
+      width: 200px;
+      max-width: 100%;
+    }
+  }
+
+  // ----Tablet---- //
+  @media (max-width: 1024px) {
     .history-container {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr); 
-        grid-template-rows: auto auto auto auto;
-        gap: 20px;
-        max-width: 1440px;
-        width: 90%;
-        align-items: center;
-        color: #D7D3CB;
-        margin: 0 auto;
+      grid-template-columns: repeat(8, 1fr);
+      gap: 20px;
+      align-items: center;
+      max-width: 100%;
+      margin: 0 auto;
     }
 
     .lumina-history {
-        grid-column: 2 / span 5;
-        font-size: 32px;
-        color: #F4C96D;
-        font-family: "Montserrat", sans-serif;
-        text-transform: uppercase;
-        margin: 50px 0 0 0;
+      grid-column: 1 / span 4;
+      font-size: 24px;
     }
 
     .history-text {
-        grid-column: 2 / span 5;
-        display: flex;
-        flex-direction: column;
-        gap: 2.2rem;
-        line-height: 2.1;
-        font-family: "Montserrat", sans-serif;
-        font-size: 16px;
-        margin-top: -20px;
+      grid-column: 1 / span 4;
+      font-size: 14px;
+      line-height: 2.2;
+      margin: 0;
+      padding-right: 120px;
+      gap: 50px;
     }
 
     .history-image-container {
-        grid-column: 8 / span 4;
-        grid-row: 1 / span 3;
-        width: 100%;
-        height: 800px;
-        overflow: hidden;
-        position: relative;
-
-        .history-main-image {
-            position: absolute;
-            left: -140px;
-            width: calc(100% + 140px);
-            height: 100%;
-            object-fit: cover;
-        }
+      grid-column: 5 / span 4;
+      grid-row: 1 / span 3;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+    }
+    
+    .history-image-container .history-main-image {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
     }
 
     .history-drinks {
-        grid-column: 5 / span 3;
-        grid-row: 3;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        margin-top: -20px;
-
-        .history-drinks-image {
-            width: 200px;
-            max-width: 100%;
-        }
+      display: none;
     }
+  }
+
+  // ----Mobile---- //
+  @media (max-width: 480px) {
+    .history-container {
+      display: block;
+      width: 100%;
+      max-width: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .lumina-history {
+      display: block;
+      width: 100%;
+      text-align: left;
+      font-size: 22px;
+      margin: 30px 0;
+      padding: 0 20px;
+    }
+  
+    .history-text {
+      display: block;
+      width: 100%;
+      padding: 0 20px;
+    }
+  
+    .history-text p.primary-text {
+      margin-bottom: 30px !important;
+    }
+  
+    .history-image-container {
+      display: block;
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: -100px;
+      overflow: hidden;
+      position: relative;
+    }
+  
+    .history-image-container .history-main-image {
+      position: static;
+      left: auto;
+      width: calc(100% - 40px);
+      height: auto;
+      object-fit: cover;
+      margin: 0 20px;
+    }
+  }
 }
-
-
-
-@media (max-width: 1024px) {
-    .history .history-container {
-        display: grid !important;
-        grid-template-columns: repeat(8, 1fr) !important; 
-        gap: 20px !important;
-        align-items: center !important;
-        max-width: 100% !important;
-        margin: 0 auto !important;
-    }
-
-    .history .lumina-history { 
-        grid-column: 1 / span 4; 
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-
-    .history .history-text { 
-        grid-column: 1 / span 4; 
-        font-size: 14px;
-        line-height: 2;
-        margin: 0;
-        padding-right: 120px;
-        gap:70px;
-    }
-
-    .history .history-image-container {
-        grid-column: 5 / span 4; 
-        grid-row: 1 / span 3;
-        height: 100vh;
-        overflow: hidden;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box;
-    }
-
-    .history-image-container .history-main-image { 
-        position: absolute;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .history-drinks {
-        display: none !important;
-    }
-}
-
