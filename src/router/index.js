@@ -1,30 +1,32 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import LandingPage from '../views/LandingPage.vue'
+import MenuPage from '../views/MenuPage.vue'
+/*import OrderPage from '../views/OrderPage.vue'*/
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+      path: '/',
+      redirect: '/home',
+    },
+    {
       path: '/home',
       name: 'home',
       component: LandingPage,
     },
- /*  {
+    {
+      path: '/menu',
+      name: 'menu',
+      component: MenuPage,
+    },
+    /*
+    {
       path: '/order',
       name: 'order',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-     component: () => import('../views/Orderpage.vue'),
-   },
-   {
-    path: '/menu',
-    name: 'menu',
-    // route level code-splitting
-    // this generates a separate chunk (About.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-   component: () => import('../views/MenuPage.vue'),
- },*/
+      component: OrderPage,
+    }
+    */
   ],
 })
 

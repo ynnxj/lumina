@@ -1,5 +1,5 @@
 <script setup>
-import SectionOne from '@/components/SectionOne.vue';
+import SectionOne from '@/components/LandingPage/SectionOne.vue';
 import SectionThree from '@/components/LandingPage/SectionThree.vue';
 import SectionFour from '@/components/LandingPage/SectionFour.vue';
 import SectionFive from '@/components/LandingPage/SectionFive.vue';
