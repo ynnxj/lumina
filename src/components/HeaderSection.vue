@@ -37,8 +37,10 @@ export default {
             <router-link to="/menu">
               <li><a href="#">Meny</a></li>
             </router-link>
-            <li><a href="#">Boka</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <router-link to="/boka">
+              <li><a href="#">Boka</a></li>
+            </router-link>
+            <li><a href="#Footer">Kontakt</a></li>
         </ul>
     </nav>
     <div class="BurgerIcon ham-Menu" aria-label="Burger Menu Logo">
@@ -57,8 +59,10 @@ export default {
                     <router-link to="/menu">
                       <li><a href="#">Meny</a></li>
                     </router-link>
-                    <li><a href="#">Boka</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                    <router-link to="/boka">
+                      <li><a href="#">Boka</a></li>
+                    </router-link>
+                    <li><a href="#Footer">Kontakt</a></li>
                 </ul>
             </nav>
             <nav>
