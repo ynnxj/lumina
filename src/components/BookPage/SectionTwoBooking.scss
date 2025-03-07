@@ -16,6 +16,14 @@
         padding: 40px;
         align-items: flex-start;
 
+        .booking-content {
+            grid-column: 2 / span 6;
+            display: flex;
+            flex-direction: column;
+            height: 276px;
+            width: 783px;
+        }
+
         .booking-title {
             margin-bottom: 32px;
             color: #F4C96D;
@@ -30,14 +38,6 @@
 
         .booking-info-over {
             margin-bottom: 10px;
-        }
-
-        .booking-content {
-            grid-column: 2 / span 6;
-            display: flex;
-            flex-direction: column;
-            height: 276px;
-            width: 783px;
         }
 
         .info-book {
@@ -61,49 +61,48 @@
         margin: 0 auto;
         padding: 40px;
         align-items: start;
-    
+
         .booking-form {
             grid-column: 2 / span 4;
             display: flex;
             flex-direction: column;
             width: 438px;
             height: 890px;
-            justify-content: space-between; 
+            justify-content: space-between;
             margin-top: 70px;
-    
+
             .form-group {
                 display: flex;
                 flex-direction: column;
             }
-    
+
             label {
                 font-size: 16px;
                 margin-bottom: 4px;
                 display: block;
-                
             }
-    
+
             input {
                 width: 100%;
                 height: 45px;
                 margin-bottom: 48px;
             }
         }
-    
+
         .booking-image-container {
             grid-column: 7 / span 5;
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            height: 890px; 
+            height: 890px;
             margin-top: -70px;
-    
+
             .booking-image {
                 max-width: 100%;
                 height: 856px;
             }
         }
-    
+
         .gdpr {
             grid-column: 2 / span 4;
             display: flex;
@@ -115,7 +114,7 @@
                 display: flex;
                 align-items: center;
                 gap: 8px;
-    
+
                 input {
                     width: 22px;
                     height: 22px;
@@ -129,7 +128,7 @@
                     align-items: center;
                     justify-content: center;
                     margin-right: 24px;
-    
+
                     &:checked::after {
                         content: "";
                         width: 16px;
@@ -140,7 +139,7 @@
                     }
                 }
             }
-    
+
             label {
                 font-size: 14px;
                 color: #D7D3CB;
@@ -149,7 +148,7 @@
                 display: flex;
                 align-items: center;
             }
-    
+
             .necessary-info {
                 font-size: 16px;
                 color: #D7D3CB;
@@ -159,15 +158,16 @@
                 margin-bottom: 48px;
             }
         }
-    
+
         .form-buttons {
             grid-column: 2 / span 4;
             display: flex;
             justify-content: flex-end;
             gap: 24px;
             margin-top: 16px;
-    
-            .btn-reset, .btn-submit {
+
+            .btn-reset,
+            .btn-submit {
                 height: 40px;
                 width: 160px;
                 border-radius: 5px;
@@ -175,23 +175,23 @@
                 cursor: pointer;
                 transition: all 0.3s ease-in-out;
             }
-    
+
             .btn-reset {
                 background-color: transparent;
                 color: #F4C96D;
                 border: 2px solid #F4C96D;
-    
+
                 &:hover {
                     background-color: #d9a947;
                     color: #283618;
                 }
             }
-    
+
             .btn-submit {
                 background-color: #F4C96D;
                 color: #283618;
                 border: 2px solid #F4C96D;
-    
+
                 &:hover {
                     background-color: #d9a947;
                     border-color: #d9a947;
@@ -199,4 +199,89 @@
             }
         }
     }
-}    
+
+    @media (max-width: 1024px) {
+        max-width: 1024px;
+
+        .booking-section-over {
+            position: relative;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            gap: 16px;
+            max-width: 716px;
+
+            .booking-info-over {
+                margin-bottom: 24px;
+            }
+
+            .booking-content {
+                grid-column: 1 / span 6;
+            }
+
+            .booking-title {
+                font-size: 24px;
+            }
+
+            p {
+                max-width: 468px;
+            }
+
+            .info-book {
+                position: absolute;
+                left: -350px;
+                grid-column: 7 / span 2;
+                justify-content: flex-end;
+                margin-top: 50px;
+
+                .book-image {
+                    width: 239px;
+                    height: 176px;
+                    object-fit: contain;
+                }
+            }
+        }
+
+        .booking-section-under {
+            margin-top: 62px;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: auto auto;
+
+            .booking-form {
+                grid-column: 2 / span 6;
+                grid-row: 1;
+                width: 520px;
+
+                label {
+                    font-size: 24px;
+                }
+
+                input {
+                    width: 520px;
+                    height: 45px;
+                    border-radius: 8px;
+                    padding: 12px;
+                }
+            }
+
+            .booking-image-container {
+                margin-top: 24px;
+                grid-column: 2 / span 6;
+                grid-row: 2;
+
+                .booking-image {
+                    width: 520px;
+                    height: 776px;
+                }
+            }
+        }
+    }
+
+    .form-buttons {
+        gap: 62px !important;
+    }
+
+    .booking-section-under .gdpr-content label {
+        font-size: 16px !important;
+    }
+}
