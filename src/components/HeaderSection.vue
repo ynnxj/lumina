@@ -35,10 +35,10 @@ export default {
     <nav class="DesktopNav">
         <ul>  
             <router-link to="/menu">
-              <li><a href="#">Meny</a></li>
+              <li><a>Meny</a></li>
             </router-link>
             <router-link to="/boka">
-              <li><a href="#">Boka</a></li>
+              <li><a>Boka</a></li>
             </router-link>
             <li><a href="#Footer">Kontakt</a></li>
         </ul>
