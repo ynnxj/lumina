@@ -1,5 +1,5 @@
 <template>
-  <div class="FooterSection">
+  <div id="Footer" class="FooterSection">
     <div class="LogoBox">
       <svg
         width="36"
