@@ -33,12 +33,12 @@ export default {
       </svg>
     </div>
     <nav class="DesktopNav">
-        <ul>  
+        <ul>
             <li>
               <router-link to="/menu"><a>Meny</a></router-link>
             </li>
             <li>
-              <router-link to="/boka"><a>Boka</a></router-link>
+              <router-link to="/book"><a>Boka</a></router-link>
             </li>
             <li><a href="#Footer">Kontakt</a></li>
         </ul>
