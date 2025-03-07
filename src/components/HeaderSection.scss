@@ -57,6 +57,7 @@
     flex-direction: column;
     opacity: 0;
     z-index: 2;
+    overflow-y: auto;
     .ToggleButtonOff {
       height: 100px;
       margin-right: 0;
