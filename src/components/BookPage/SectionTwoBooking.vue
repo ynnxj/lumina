@@ -19,30 +19,46 @@
           <img class="book-image" :src="bookImage" alt="Uppslagen bok liggandes ner" />
         </div>
       </section>
-    <section class="booking-section-under">
+  
+      <section class="booking-section-under">
         <div class="booking-form">
           <form>
-            <label for="name">Namn på bokningen*</label>
-            <input type="text" id="name" placeholder="Placeholder" />
+            <div class="form-group">
+              <label for="name">Namn på bokningen*</label>
+              <input type="text" id="name" placeholder="Placeholder" />
+            </div>
   
-            <label for="people">Antal personer*</label>
-            <input type="text" id="people" placeholder="Placeholder" />
+            <div class="form-group">
+              <label for="people">Antal personer*</label>
+              <input type="text" id="people" placeholder="Placeholder" />
+            </div>
   
-            <label for="date">Önskat datum*</label>
-            <input type="text" id="date" placeholder="Placeholder" />
+            <div class="form-group">
+              <label for="date">Önskat datum*</label>
+              <input type="text" id="date" placeholder="Placeholder" />
+            </div>
   
-            <label for="time">Önskad tid*</label>
-            <input type="text" id="time" placeholder="Placeholder" />
+            <div class="form-group">
+              <label for="time">Önskad tid*</label>
+              <input type="text" id="time" placeholder="Placeholder" />
+            </div>
   
-            <label for="email">Din e-mail*</label>
-            <input type="email" id="email" placeholder="Placeholder" />
+            <div class="form-group">
+              <label for="email">Din e-mail*</label>
+              <input type="email" id="email" placeholder="Placeholder" />
+            </div>
   
-            <label for="phone">Ditt telefonnummer*</label>
-            <input type="text" id="phone" placeholder="Placeholder" />
+            <div class="form-group">
+              <label for="phone">Ditt telefonnummer*</label>
+              <input type="text" id="phone" placeholder="Placeholder" />
+            </div>
   
             <div class="gdpr">
-              <input type="checkbox" id="gdpr" />
-              <label for="gdpr">GDPR Lorem ipsum dolor sit amet</label>
+              <div class="gdpr-content">
+                <input type="checkbox" id="gdpr" />
+                <label for="gdpr">GDPR Lorem ipsum dolor sit amet</label>
+              </div>
+              <p class="necessary-info">* Nödvändig information</p>
             </div>
   
             <div class="form-buttons">
@@ -52,15 +68,17 @@
           </form>
         </div>
   
-        
+        <div class="booking-image-container">
+          <img class="booking-image" :src="pourImage" alt="Bartender häller upp en drink från höjd" />
+        </div>
       </section>
-  
     </section>
   </template>
   
   <script setup>
   import bookImage from "@/assets/images/images-and-videos/booking-page/book.png";
- 
+  import pourImage from "@/assets/images/images-and-videos/booking-page/high-pour.jpg";
+  
   import "./SectionTwoBooking.scss";
   </script>
   
