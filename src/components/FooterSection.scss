@@ -41,23 +41,24 @@
       width: 300px;
     }
     nav {
-      
-      li {
-        font-size: 1.7rem;
-        list-style: none;
-        margin-top: 20px;
-        width: 300px;
-        text-decoration: underline;
-        cursor: pointer;
-        a {
-          &:hover {
-            font-weight: bold;
-          }
-          &:visited {
-            color: #e2a31c;
-          }
-          &:focus {
-            border: 1px solid black;
+      ul{
+        li {
+          font-size: 1.7rem;
+          list-style: none;
+          margin-top: 20px;
+          width: 340px;
+          text-decoration: underline;
+          cursor: pointer;
+          
+          a {
+            color: #283618;
+            &:hover {
+              font-weight: bold;
+            }
+
+            &:focus {
+              border: 1px solid black;
+            }
           }
         }
       }
@@ -70,7 +71,6 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        
         .LogoBox {
           width: 50%;
           height: 100%;

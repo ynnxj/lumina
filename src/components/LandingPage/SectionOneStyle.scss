@@ -64,7 +64,7 @@ main {
 }
 
 //Tablet version
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   main {
     .video-hp {
       display: none;
@@ -99,7 +99,7 @@ main {
 }
 
 //Mobile version
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 480px) {
   main {
     .container {
       img {

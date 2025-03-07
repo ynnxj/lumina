@@ -19,7 +19,6 @@
     ul {
       list-style: none;
       font-size: 1.3rem;
-      text-decoration: underline;
       color: #d7d3cb;
       display: flex;
       flex-direction: row;
@@ -29,13 +28,12 @@
       li {
         width: 100px;
         cursor: pointer;
+        color: #e2a31c;
         a {
+          text-decoration: underline;
           color: #d7d3cb;
           &:hover {
             font-weight: bold;
-          }
-          &:visited {
-            color: #e2a31c;
           }
           &:focus {
             border: 1px solid black;

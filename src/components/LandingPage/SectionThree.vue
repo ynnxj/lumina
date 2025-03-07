@@ -5,7 +5,7 @@
 <template>
     <div class="SectionThree">
         <div class="SectionThreeImage">
-           <img src="/src/assets/images/images-and-videos/home-page/lumina-classic.jpg" alt="Lumina Classic">
+           <img loading="lazy" src="/src/assets/images/images-and-videos/home-page/lumina-classic.jpg" alt="Lumina Classic" width="2333" height="3500">
         </div>
         <div class="SectionThreeTextBox">
             <h2>Luminas Signatur</h2>
