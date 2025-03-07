@@ -31,10 +31,12 @@
     <div class="FooterInfoBox">
       <h2>Socialt</h2>
       <Nav>
-        <li><a>Instagram</a></li>
-        <li><a>Twitter</a></li>
-        <li><a>Facebook</a></li>
-        <li><a>Tiktok</a></li>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Tiktok</a></li>
+        </ul>
       </Nav>
     </div>
   </div>
