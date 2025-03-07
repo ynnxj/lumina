@@ -7,7 +7,7 @@
             <button>Boka Bord</button>
         </div>
         <div class="SectionFiveImage">
-            <img src="/src/assets/images/images-and-videos/home-page/serving.jpg" alt="Serving Lumina">
+            <img loading="lazy" src="/src/assets/images/images-and-videos/home-page/serving.jpg" alt="Serving Lumina" width="2333" height="3500">
         </div>
     </div>
 
