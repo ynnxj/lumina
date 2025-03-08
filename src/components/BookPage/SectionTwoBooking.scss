@@ -67,7 +67,6 @@
             display: flex;
             flex-direction: column;
             width: 438px;
-            height: 890px;
             justify-content: space-between;
             margin-top: 70px;
 
@@ -94,26 +93,33 @@
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            height: 890px;
-            margin-top: -70px;
 
             .booking-image {
                 max-width: 100%;
                 height: 856px;
             }
         }
+        .gdpr .gdpr-full {
+            display: inline;
+          }
+          
+          .gdpr .gdpr-short {
+            display: none;
+          }
 
         .gdpr {
-            grid-column: 2 / span 4;
             display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 4px;
-
+            
+           
             .gdpr-content {
-                display: flex;
-                align-items: center;
-                gap: 8px;
+                display: grid;
+                grid-column: 2 / span 5;
+              
+                .necessary-info {
+                    grid-column: 2 / span 5;
+                    margin-top: -40px;
+                
+                }
 
                 input {
                     width: 22px;
@@ -147,15 +153,6 @@
                 margin-top: -40px;
                 display: flex;
                 align-items: center;
-            }
-
-            .necessary-info {
-                font-size: 16px;
-                color: #D7D3CB;
-                opacity: 0.8;
-                margin-top: -40px;
-                margin-left: 56px;
-                margin-bottom: 48px;
             }
         }
 
@@ -200,6 +197,7 @@
         }
     }
 
+
     @media (max-width: 1024px) {
         max-width: 1024px;
 
@@ -215,8 +213,7 @@
             }
             .booking-info-under {
                 margin-bottom: 24px;
-                margin-right: 0;
-                
+                margin-right: 0; 
             }
 
             .booking-content {
@@ -236,8 +233,6 @@
                 justify-content: flex-end;
                 margin-top: -250px;
         
-                
-
                 .book-image {
                     width: 239px;
                     height: 176px;
@@ -270,9 +265,9 @@
             }
 
             .booking-image-container {
-                margin-top: 24px;
                 grid-column: 2 / span 6;
                 grid-row: 2;
+                margin-top: 24px;
 
                 .booking-image {
                     width: 520px;
@@ -284,6 +279,7 @@
 
     .form-buttons {
         gap: 62px !important;
+        margin-bottom: 24px;
     }
 
     .booking-section-under .gdpr-content label {
@@ -298,14 +294,13 @@
       align-items: center; 
       text-align: left;
       width: 100%;
-      margin-top: -90px;
+      margin: 0;
+      padding:0;
       
       .booking-section-over {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
-        max-width: 360px;
   
         .booking-content {
           width: 100%;
@@ -333,12 +328,13 @@
       .booking-section-under {
         display: flex;
         flex-direction: column;
-        max-width: 360px;
-        margin-top: -80px;
+        padding: 0;
+        margin: 0;
   
         .booking-form {
           width: 100%;
           max-width: 309px;
+          margin: 0 !important;
   
           label {
             font-size: 16px; 
@@ -347,21 +343,59 @@
           input {
             width: 100%;
             height: 45px;
+            margin-bottom: 24px;
           }
+        } 
+        .form-buttons {
+            gap: 7px !important;
+            margin: 0 10px 0 0 !important;
+          }
+
+          .gdpr {
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start; 
+            gap: 4px;
+    
+            .gdpr-content {
+                align-items: center;
+                gap: 8px; 
+                margin-bottom: 24px;
+                margin-top: 5px;;
+                
+            }
+    
+            .gdpr-full {
+                display: none; 
+            }
+    
+            .gdpr-short {
+                display: inline;
+                display: block; 
+                
+            }
+    
+            .necessary-info {
+               
+               align-self: flex-start; 
+            }
         }
-  
+    
+          
         .booking-image-container {
-          height: 470px;
           width: 100%;
           max-width: 309px;
           text-align: center;
-          margin-top: -40px;
-  
+          margin-bottom: 24px;
+
           .booking-image {
             height: auto;
           }
         }
       }
     }
+    
   }
+  
+
   
