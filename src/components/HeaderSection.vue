@@ -20,6 +20,7 @@ export default {
 <template>
   <div class="HeaderSection">
     <div class="HeaderLogo">
+      <router-link to="/">
       <svg aria-label="Lumina Logo"
         width="36"
         height="35"
@@ -31,6 +32,7 @@ export default {
           fill="#F4C96D"
         />
       </svg>
+    </router-link>
     </div>
     <nav class="DesktopNav">
         <ul>
