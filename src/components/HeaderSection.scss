@@ -1,5 +1,5 @@
 .HeaderSection {
-  height: 125px;
+  height: 80px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -127,23 +127,31 @@
 
 @media (max-width: 768px) {
   .HeaderSection {
+    height: 100px;
     .DesktopNav {
       display: none;
     }
     .BurgerIcon {
       display: grid;
+      margin-right: 0;
+      svg{
+        width: 100px;
+        height: 100px;
+        zoom: 1;
+        
+      }
     }
     .MobileTabletNav.show {
       .ToggleButtonOff {
-        height: 130px;
+        height: 100px;
         margin-right: 0;
         a {
           float: right;
         }
         svg {
           fill: #d7d3cb;
-          width: 130px;
-          height: 130px;
+          width: 100px;
+          height: 100px;
         }
       }
       .NavBox {
@@ -161,6 +169,7 @@
 }
 @media (max-width: 480px) {
   .HeaderSection {
+    height: 80px;
     .HeaderLogo {
       margin-left: 10px;
     }
@@ -169,23 +178,23 @@
     }
     .BurgerIcon {
       display: grid;
-      height: 100%;
+      height: 80px;
       margin-right: 0;
       svg {
         width: 70px;
         height: 100%;
         fill: #d7d3cb;
-        zoom: 1.4;
+        zoom: 1;
       }
     }
     .MobileTabletNav.show {
       .ToggleButtonOff {
         margin-right: 0;
-        height: 100px;
+        height: 80px;
         svg {
           zoom: 1;
-          height: 125px;
-          width: 100px;
+          height: 80px;
+          width: 70px;
         }
       }
     }
