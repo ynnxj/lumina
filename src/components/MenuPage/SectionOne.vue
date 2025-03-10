@@ -30,8 +30,9 @@
 		}
 
 		.menu-logo {
-			width: 300px;
-			margin-bottom: 220px;
+			margin-bottom: 250px;
+			width: 438px;
+      height: 98px;
 		}
 	}
 
