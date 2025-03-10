@@ -131,11 +131,10 @@
     .BurgerIcon {
       display: grid;
       margin-right: 0;
-      svg{
+      svg {
         width: 100px;
         height: 100px;
         zoom: 1;
-        
       }
     }
     .MobileTabletNav.show {
@@ -195,35 +194,33 @@
         }
       }
     }
-
   }
 }
-@media (max-width:375px) {
-  .HeaderSection{
+@media (max-width: 375px) {
+  .HeaderSection {
     height: 60px;
-    .HeaderLogo{
-      svg{
+    .HeaderLogo {
+      svg {
         zoom: 0.7;
       }
     }
-    .BurgerIcon{
+    .BurgerIcon {
       height: 60px;
-      svg{
+      svg {
         height: 60px;
       }
     }
-    .MobileTabletNav.show{
-      .ToggleButtonOff{
+    .MobileTabletNav.show {
+      .ToggleButtonOff {
         height: 60px;
-        svg{
+        svg {
           height: 60px;
           width: 70px;
         }
       }
-      .NavBox{
+      .NavBox {
         justify-content: start;
       }
     }
   }
-  
 }
