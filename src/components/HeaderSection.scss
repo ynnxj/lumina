@@ -73,7 +73,6 @@
       justify-content: center;
       align-items: center;
       height: 100%;
-      gap: 50px;
       nav {
         display: flex;
         flex-direction: column;
@@ -108,10 +107,8 @@
   .MobileTabletNav.show {
     opacity: 1;
     visibility: visible;
-    gap: 50px;
   }
   /* Close Button */
-
   .BurgerIcon {
     display: none;
     height: 100%;
@@ -198,5 +195,35 @@
         }
       }
     }
+
   }
+}
+@media (max-width:375px) {
+  .HeaderSection{
+    height: 60px;
+    .HeaderLogo{
+      svg{
+        zoom: 0.7;
+      }
+    }
+    .BurgerIcon{
+      height: 60px;
+      svg{
+        height: 60px;
+      }
+    }
+    .MobileTabletNav.show{
+      .ToggleButtonOff{
+        height: 60px;
+        svg{
+          height: 60px;
+          width: 70px;
+        }
+      }
+      .NavBox{
+        justify-content: start;
+      }
+    }
+  }
+  
 }
