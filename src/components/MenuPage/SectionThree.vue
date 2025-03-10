@@ -289,9 +289,10 @@
 		}
 
 		img {
-			width: 100%;
+			width: 50%;
 			height: auto;
-			padding: 20px 80px;
+			display: block;  // Gör så att margin fungerar
+			margin: 0 auto;  // Centrerar bilden
 		}
 
 		.small-screen {
@@ -314,16 +315,19 @@
 				margin-left: 50px;
 			}
 
-			.inner, .inner-short {
-				background-color: #D7D3CB;
-				padding: 40px;
+			.inner {
 				height: 100%;
 			}
-
+			
 			.inner-short {
 				margin-top: 30px;
 			}
 			
+			.inner, .inner-short {
+				background-color: #D7D3CB;
+				padding: 40px;
+			}
+
 			.category-item {
 				margin-bottom: 70px;
 			}
@@ -377,10 +381,10 @@
 
 			.menu-column {
 				border: none;
-			}
 
-			img {
-				padding: 10px 55px;
+				.category-item {
+					margin-bottom: 10px;
+				}
 			}
 		}
 	}
