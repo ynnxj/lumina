@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: center;
     color: #283618;
-    
+
     h2 {
       font-size: 2rem;
       font-weight: bold;
@@ -41,7 +41,7 @@
       width: 300px;
     }
     nav {
-      ul{
+      ul {
         li {
           font-size: 1.5rem;
           list-style: none;
@@ -49,7 +49,7 @@
           width: 340px;
           text-decoration: underline;
           cursor: pointer;
-          
+
           a {
             color: #283618;
             &:hover {
@@ -66,14 +66,13 @@
   }
 }
 
-
 @media (max-width: 768px) {
   .FooterSection {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 388px;
-    
+
     .LogoBox {
       width: 50%;
       height: 100%;
@@ -88,14 +87,12 @@
   .FooterSection {
     display: flex;
     flex-direction: row;
-    
+
     .LogoBox {
       width: 100%;
-      
     }
     .FooterInfoBox {
       width: 100%;
-      
     }
   }
 }

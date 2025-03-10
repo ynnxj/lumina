@@ -17,21 +17,17 @@
           En plats för inspiration, umgänge och smakupplevelser.
         </p>
       </div>
-
       <div class="history-image-container">
-        <img class="history-main-image":src="barImage"alt="Daniel Tending Lumina Bar"/>
+        <img class="history-main-image" src="/src/assets/images/images-and-videos/home-page/daniel-tending-the-bar.jpg" alt="Daniel Tending Lumina Bar"/>
       </div>
 
       <div class="history-drinks">
-        <img class="history-drinks-image":src="drinksImage"alt="Fyra drinkar"/>
+        <img class="history-drinks-image" src="/src/assets/images/images-and-videos/home-page/drinks.png" alt="Fyra drinkar"/>
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import barImage from "@/assets/images/images-and-videos/home-page/daniel-tending-the-bar.jpg";
-import drinksImage from "@/assets/images/images-and-videos/home-page/drinks.png";
-
 import "./SectionTwoHistoryStyle.scss";
 </script>
