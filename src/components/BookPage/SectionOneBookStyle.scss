@@ -1,50 +1,48 @@
-main {
-  width: 100%;
-  
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -125px;
+  height: 100vh; 
+  width: 100%; 
+  z-index: -1;
 
+  .header-img {
+    width: 100vw; 
+    height: 100%; 
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
 
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 651px;
-    position: relative;
-    background-image: url(/src/assets/images/images-and-videos/booking-page/stir.jpg);
-    background-size: cover;
-    margin-top: -125px; // Jag var och rörde snabbt här.
-    z-index: -1; // här med. (Kristofer)
-
-    .book-img {
-      position: relative;
-      width: 438px;
-      height: 98px;
-    }
+  .book-img {
+    width: 438px;
+    height: 98px;
   }
 }
+
 //Tablet version
 @media screen and (max-width: 768px) {
-  main {
-    .container {
-      height: 482px;
+  .container {
+    height: 482px;
 
-      .book-img {
-        width: 336px;
-        height: 79px;
-      }
+    .book-img {
+      width: 336px;
+      height: 79px;
     }
   }
 }
 
 //Mobile version
 @media screen and (max-width: 480px) {
-  main {
-    .container {
-    height: 283px;
+  .container {
+  height: 283px;
 
-      .book-img {
-        width: 312px;
-        height: 63px;
-      }
+    .book-img {
+      width: 312px;
+      height: 63px;
     }
   }
 }
