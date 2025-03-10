@@ -30,11 +30,12 @@ body, html {
 
   .lumina-history {
     grid-column: 2 / span 5;
-    font-size: 32px;
+    font-size: 2rem;
     color: #F4C96D;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     margin-top: 60px;
+    font-weight: 600;
   }
 
   .history-text {
@@ -44,7 +45,7 @@ body, html {
     gap: 2.2rem;
     line-height: 2.1;
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .history-image-container {
@@ -89,14 +90,16 @@ body, html {
 
     .lumina-history {
       grid-column: 1 / span 4;
-      font-size: 24px;
+      font-size: 1.5rem;
     }
 
     .history-text {
       grid-column: 1 / span 4;
-      font-size: 14px;
-      line-height: 2.2;
+      font-size: 0.875rem;
+      line-height: 24px;
       margin: 0;
+      padding-top: 40px;
+      margin-right: 20px;
     }
 
     .history-image-container {
@@ -128,15 +131,15 @@ body, html {
       max-width: none;
       margin-bottom: -200px;
       padding: 0;
+      margin-inline: 10px;
     }
 
     .lumina-history {
       display: block;
       width: 100%;
       text-align: left;
-      font-size: 22px;
+      font-size: 1.5rem;
       margin: 30px 0;
-      padding: 0 20px;
     }
 
     .history-text {
