@@ -1,23 +1,25 @@
-.SectionThree {
+.section-three {
   background-color: #d7d3cb;
   width: 100%;
-  height: 652px;
+  height: 752px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 32px;
   align-items: center;
-  grid-template-areas: ". image image image image . text text text text text .";
-  &Image {
-    height: 524px;
-    grid-area: image;
+  
+  &-image {
+    height: 624px;
+    width: 500px;
+    grid-column: 3 / 7;
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
   }
-  &TextBox {
-    grid-area: text;
+  &-text-box {
+    grid-column: 8 / 12;
+    width: 600px;
     h2 {
       font-family: "Montserrat", sans-serif;
       margin-top: 50px;
@@ -59,16 +61,16 @@
 }
 
 @media (max-width: 1023px) {
-  .SectionThree {
+  .section-three {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     padding: 32px;
-    &Image {
+    &-image{
       grid-column: 1 / span 4;
       width: 335px;
       height: 540px;
     }
-    &TextBox {
+    &-text-box {
       grid-column: 5 / span 8;
       width: 330px;
       height: 520px;
@@ -90,7 +92,7 @@
 }
 
 @media (max-width: 480px) {
-  .SectionThree {
+  .section-three {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 980px;
@@ -100,12 +102,12 @@
     grid-template-areas: 
       "text text" 
       "image image";
-    &Image {
+    &-image{
       grid-area: image;
       width: 100%;
       height: 430px;
     }
-    &TextBox {
+    &-text-box {
       grid-area: text;
       height: 472px;
       width: 100%;

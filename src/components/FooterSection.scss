@@ -1,4 +1,4 @@
-.FooterSection {
+.footer-section {
   width: 100%;
   height: 420px;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
   background-color: #283618;
   margin-top: -1px;
-  .LogoBox {
+  .logo-box {
     background-color: #283618;
     width: 100%;
     height: 100%;
@@ -18,7 +18,7 @@
       height: 200px;
     }
   }
-  .FooterInfoBox {
+  .footer-info-box {
     border: 1px solid #d7d3cb;
     background-color: #d7d3cb;
     width: 100%;
@@ -67,31 +67,31 @@
 }
 
 @media (max-width: 768px) {
-  .FooterSection {
+  .footer-section {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 388px;
 
-    .LogoBox {
+    .logo-box {
       width: 50%;
       height: 100%;
     }
-    .FooterInfoBox {
+    .footer-info-box {
       width: 50%;
       height: 100%;
     }
   }
 }
 @media (max-width: 480px) {
-  .FooterSection {
+  .footer-section {
     display: flex;
     flex-direction: row;
 
-    .LogoBox {
+    .logo-box {
       width: 100%;
     }
-    .FooterInfoBox {
+    .footer-info-box {
       width: 100%;
     }
   }

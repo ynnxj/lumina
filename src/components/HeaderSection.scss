@@ -1,18 +1,18 @@
-.HeaderSection {
+.header-section {
   height: 80px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  .HeaderLogo {
+  .header-logo {
     margin-left: 32px;
     img {
       width: 70px;
       height: 70px;
     }
   }
-  .DesktopNav {
+  .desktop-nav {
     display: flex;
     flex-direction: column;
     margin-right: 32px;
@@ -43,7 +43,7 @@
     }
   }
 
-  .MobileTabletNav {
+  .mobile-tablet-nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -56,7 +56,7 @@
     opacity: 0;
     z-index: 2;
     overflow-y: auto;
-    .ToggleButtonOff {
+    .toggle-button-off {
       height: 100px;
       margin-right: 0;
       a {
@@ -67,7 +67,7 @@
         width: 100px;
       }
     }
-    .NavBox {
+    .nav-box {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -104,12 +104,12 @@
     }
   }
 
-  .MobileTabletNav.show {
+  .mobile-tablet-nav.show {
     opacity: 1;
     visibility: visible;
   }
   /* Close Button */
-  .BurgerIcon {
+  .burger-icon {
     display: none;
     height: 100%;
     margin-right: 15px;
@@ -123,12 +123,12 @@
 }
 
 @media (max-width: 768px) {
-  .HeaderSection {
+  .header-section {
     height: 100px;
-    .DesktopNav {
+    .desktop-nav {
       display: none;
     }
-    .BurgerIcon {
+    .burger-icon {
       display: grid;
       margin-right: 0;
       svg {
@@ -137,8 +137,8 @@
         zoom: 1;
       }
     }
-    .MobileTabletNav.show {
-      .ToggleButtonOff {
+    .mobile-tablet-nav.show {
+      .toggle-button-off {
         height: 100px;
         margin-right: 0;
         a {
@@ -150,7 +150,7 @@
           height: 100px;
         }
       }
-      .NavBox {
+      .nav-box {
         height: 600px;
         display: flex;
         justify-content: center;
@@ -164,15 +164,15 @@
   }
 }
 @media (max-width: 480px) {
-  .HeaderSection {
+  .header-section {
     height: 80px;
-    .HeaderLogo {
+    .header-logo {
       margin-left: 10px;
     }
-    .DesktopNav {
+    .desktop-nav {
       display: none;
     }
-    .BurgerIcon {
+    .burger-icon {
       display: grid;
       height: 80px;
       margin-right: 0;
@@ -183,8 +183,8 @@
         zoom: 1;
       }
     }
-    .MobileTabletNav.show {
-      .ToggleButtonOff {
+    .mobile-tablet-nav.show {
+      .toggle-button-off {
         margin-right: 0;
         height: 80px;
         svg {
@@ -197,28 +197,28 @@
   }
 }
 @media (max-width: 375px) {
-  .HeaderSection {
+  .header-section {
     height: 60px;
-    .HeaderLogo {
+    .header-logo {
       svg {
         zoom: 0.7;
       }
     }
-    .BurgerIcon {
+    .burger-icon {
       height: 60px;
       svg {
         height: 60px;
       }
     }
-    .MobileTabletNav.show {
-      .ToggleButtonOff {
+    .mobile-tablet-nav.show {
+      .toggle-button-off {
         height: 60px;
         svg {
           height: 60px;
           width: 70px;
         }
       }
-      .NavBox {
+      .nav-box {
         justify-content: start;
       }
     }
