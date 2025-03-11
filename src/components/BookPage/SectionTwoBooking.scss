@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-
 .booking-page2 {
     background-color: #283618;
     color: #D7D3CB;
     width: 100%;
-    padding-top: 120px;
+    padding-top: 5%;
     font-family: "Montserrat", sans-serif;
 
     .booking-section-over {
@@ -73,12 +71,14 @@
             .form-group {
                 display: flex;
                 flex-direction: column;
+                font-size: 16px;
             }
 
             label {
-                font-size: 16px;
+                font-size: 24px;
                 margin-bottom: 4px;
                 display: block;
+                
             }
 
             input {
@@ -87,6 +87,13 @@
                 margin-bottom: 48px;
             }
         }
+        .booking-form input {
+            background-color: #D7D3CB; 
+            color: #283618; 
+            padding: 10px;
+            font-size: 16px;
+           
+          }
 
         .booking-image-container {
             grid-column: 7 / span 5;
@@ -179,7 +186,7 @@
                 border: 2px solid #F4C96D;
 
                 &:hover {
-                    background-color: #d9a947;
+                    background-color: #E2A31C;
                     color: #283618;
                 }
             }
@@ -190,16 +197,37 @@
                 border: 2px solid #F4C96D;
 
                 &:hover {
-                    background-color: #d9a947;
-                    border-color: #d9a947;
+                    background-color: #E2A31C;
+                    border-color: #E2A31C;
                 }
             }
         }
     }
 
+    input.error-placeholder::placeholder {
+        color: red;
+        font-family: "Montserrat", sans-serif;
+        
+      }
+      .gdpr-content {
+        position: relative; 
+      }
+      
+      .error-message {
+        position: absolute;
+        bottom: 110%; 
+        width: 100%;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        color: red;
+        background-color: #D7D3CB;
+        font-size: 12px;
+        padding: 1px;
+        border-radius: 4px;
+      }
 
-    @media (max-width: 1024px) {
-        max-width: 1024px;
+@media (max-width: 1024px) {
+        
 
         .booking-section-over {
             position: relative;
@@ -261,6 +289,7 @@
                     height: 45px;
                     border-radius: 8px;
                     padding: 12px;
+                    font-family: "Montserrat", sans-serif;
                 }
             }
 
@@ -361,8 +390,7 @@
                 align-items: center;
                 gap: 8px; 
                 margin-bottom: 24px;
-                margin-top: 5px;;
-                
+                margin-top: 5px;
             }
     
             .gdpr-full {
@@ -372,15 +400,12 @@
             .gdpr-short {
                 display: inline;
                 display: block; 
-                
             }
     
             .necessary-info {
-               
                align-self: flex-start; 
             }
         }
-    
           
         .booking-image-container {
           width: 100%;
@@ -394,8 +419,4 @@
         }
       }
     }
-    
   }
-  
-
-  
