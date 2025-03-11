@@ -7,154 +7,154 @@
 				// Signature Drinks
 				signature: [
 					{
-						namn: "Lumina Soleil",
-						beskrivning: "Mörk premiumrom ⬝ färskpressad apelsin- och citronjuice ⬝ honungssirap ⬝ grand marnier ⬝ en stänk appelsinbitters",
+						name: "Lumina Soleil",
+						description: "Mörk premiumrom ⬝ färskpressad apelsin- och citronjuice ⬝ honungssirap ⬝ grand marnier ⬝ en stänk appelsinbitters",
 					},
 					{
-						namn: "Ember Old Fashioned",
-						beskrivning: "Fatlagrad burbon ⬝ lönnsirap ⬝ några droppar chokladbitters ⬝ apelsinzest",
+						name: "Ember Old Fashioned",
+						description: "Fatlagrad burbon ⬝ lönnsirap ⬝ några droppar chokladbitters ⬝ apelsinzest",
 					},
 					{
-						namn: "Dirty Martini",
-						beskrivning: "Premiumvodka (eller gin) ⬝ torr vermouth ⬝ olivlake ⬝ garneras med gröna oliver",
+						name: "Dirty Martini",
+						description: "Premiumvodka (eller gin) ⬝ torr vermouth ⬝ olivlake ⬝ garneras med gröna oliver",
 					},
 					{
-						namn: "Lorem Ipsum",
-						beskrivning: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod temporv",
+						name: "Lorem Ipsum",
+						description: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod temporv",
 					}
 				],
 
 				// Classics
 				classics: [
 					{
-						namn: "Lumina Colada",
-						beskrivning: "Ljus premiumrom ⬝ kokos ⬝ färskpressad limejuice ⬝ ananas ⬝ soda",
+						name: "Lumina Colada",
+						description: "Ljus premiumrom ⬝ kokos ⬝ färskpressad limejuice ⬝ ananas ⬝ soda",
 					},
 					{
-						namn: "Lumina Colada",
-						beskrivning: "Ljus premiumrom ⬝ kokos ⬝ färskpressad limejuice ⬝ ananas ⬝ soda",
+						name: "Lumina Colada",
+						description: "Ljus premiumrom ⬝ kokos ⬝ färskpressad limejuice ⬝ ananas ⬝ soda",
 					},
 					{
-						namn: "Negroni Sbagliato",
-						beskrivning: "Campari ⬝ röd vermouth ⬝ prosecco ⬝ apelsinskiva",
+						name: "Negroni Sbagliato",
+						description: "Campari ⬝ röd vermouth ⬝ prosecco ⬝ apelsinskiva",
 					},
 					{
-						namn: "Negroni Spagliato",
-						beskrivning: "Campari ⬝ röd vermouth ⬝ prosecco ⬝ apelsinskiva",
+						name: "Negroni Spagliato",
+						description: "Campari ⬝ röd vermouth ⬝ prosecco ⬝ apelsinskiva",
 					},
 					{
-						namn: "Lorem Ipsum",
-						beskrivning: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
+						name: "Lorem Ipsum",
+						description: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
 					},
 					{
-						namn: "Lorem Ipsum",
-						beskrivning: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
+						name: "Lorem Ipsum",
+						description: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
 					},
 					{
-						namn: "Incididunt Ut Labore",
-						beskrivning: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
+						name: "Incididunt Ut Labore",
+						description: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
 					},
 					{
-						namn: "Incididunt Ut Labore",
-						beskrivning: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
+						name: "Incididunt Ut Labore",
+						description: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
 					},
 					{
-						namn: "Incididunt Ut Labore",
-						beskrivning: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
+						name: "Incididunt Ut Labore",
+						description: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
 					}
 				],
 
 				// Mocktails
 				mocktails: [
 					{
-						namn: "Lorem Ipsum",
-						beskrivning: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
+						name: "Lorem Ipsum",
+						description: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
 					},
 					{
-						namn: "Incididunt Ut Labore",
-						beskrivning: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
+						name: "Incididunt Ut Labore",
+						description: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
 					},
 					{
-						namn: "Incididunt Ut Labore",
-						beskrivning: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
+						name: "Incididunt Ut Labore",
+						description: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
 					}
 				],
 
 				// Spritzers
 				spritzers: [
 					{
-						namn: "Spritz",
-						beskrivning: "Mörk premiumrom ⬝ färskpressad apelsin- och citronjuice ⬝ honungssirap ⬝ grand marnier ⬝ en stänk appelsinbitters",
+						name: "Spritz",
+						description: "Mörk premiumrom ⬝ färskpressad apelsin- och citronjuice ⬝ honungssirap ⬝ grand marnier ⬝ en stänk appelsinbitters",
 					},
 					{
-						namn: "Fizzy",
-						beskrivning: "Fatlagrad burbon ⬝ lönnsirap ⬝ några droppar chokladbitters ⬝ apelsinzest ",
+						name: "Fizzy",
+						description: "Fatlagrad burbon ⬝ lönnsirap ⬝ några droppar chokladbitters ⬝ apelsinzest ",
 					},
 					{
-						namn: "Fizzy spritzer",
-						beskrivning: "Premiumvodka (eller gin) ⬝ torr vermouth ⬝ olivlake ⬝ garneras med gröna oliver",
+						name: "Fizzy spritzer",
+						description: "Premiumvodka (eller gin) ⬝ torr vermouth ⬝ olivlake ⬝ garneras med gröna oliver",
 					}
 				],
 
 				// Gin and Tonics
 				gintonic: [
 					{
-						namn: "Gurka & Rosepeppar",
-						beskrivning: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
+						name: "Gurka & Rosepeppar",
+						description: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
 					},
 					{
-						namn: "Rosmarin & Apelsin",
-						beskrivning: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
+						name: "Rosmarin & Apelsin",
+						description: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
 					},
 					{
-						namn: "Monkey 47 & granskott",
-						beskrivning: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
+						name: "Monkey 47 & granskott",
+						description: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
 					},
 					{
-						namn: "Härnö & grapefrukt",
-						beskrivning: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
+						name: "Härnö & grapefrukt",
+						description: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
 					}
 				],
 
 				// Wine and Champagne
 				wine: [
 					{
-						namn: "Röda viner",
-						beskrivning: "Sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
+						name: "Röda viner",
+						description: "Sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
 					},
 					{
-						namn: "Vita viner",
-						beskrivning: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur",
+						name: "Vita viner",
+						description: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur",
 					},
 					{
-						namn: "Orange viner",
-						beskrivning: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur",
+						name: "Orange viner",
+						description: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur",
 					},
 					{
-						namn: "Bubblor",
-						beskrivning: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur",
+						name: "Bubblor",
+						description: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur",
 					},
 					{
-						namn: "Champange",
-						beskrivning: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
+						name: "Champange",
+						description: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
 					}
 				],
 
 				// Snacks
 				snacks: [
 					{
-						namn: "Lorem Ipsum",
-						beskrivning: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
+						name: "Lorem Ipsum",
+						description: "Lorem ipsum dolor ⬝ sit amet ⬝ consectetur ⬝ adipiscing elit ⬝ sed do ⬝ eiusmod tempor",
 						price: 35
 					},
 					{
-						namn: "Incididunt Ut Labore",
-						beskrivning: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
+						name: "Incididunt Ut Labore",
+						description: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
 						price: 30
 					},
 					{
-						namn: "Incididunt Ut Labore",
-						beskrivning: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
+						name: "Incididunt Ut Labore",
+						description: "Et dolore ⬝ magna aliqua ⬝ Ut enim ⬝ ad minim ⬝ veniam ⬝ quis nostrud ⬝ exercitation",
 						price: 45
 					}
 				]
@@ -176,8 +176,8 @@
 				<div class="category-item">
 					<h3>Signaturdrinkar 185:-</h3>
 					<div v-for="(item, index) in signature" :key="index" class="menu-item">
-						<h4>{{ item.namn }}</h4>
-						<p>{{ item.beskrivning }}</p>
+						<h4>{{ item.name }}</h4>
+						<p>{{ item.description }}</p>
 					</div>
 				</div>
 
@@ -187,8 +187,8 @@
 				<div class="category-item">
 					<h3>Klassiker 165:-</h3>
 					<div v-for="(item, index) in classics" :key="index" class="menu-item">
-						<h4>{{ item.namn }}</h4>
-						<p>{{ item.beskrivning }}</p>
+						<h4>{{ item.name }}</h4>
+						<p>{{ item.description }}</p>
 					</div>
 				</div>
 			</div>
@@ -198,8 +198,8 @@
 				<div class="category-item">
 					<h3>Mocktails 105:-</h3>
 					<div v-for="(item, index) in mocktails" :key="index" class="menu-item">
-						<h4>{{ item.namn }}</h4>
-						<p>{{ item.beskrivning }}</p>
+						<h4>{{ item.name }}</h4>
+						<p>{{ item.description }}</p>
 					</div>
 				</div>
 			</div>
@@ -213,8 +213,8 @@
 				<div class="category-item">
 					<h3>Spritzers 145:-</h3>
 					<div v-for="(item, index) in spritzers" :key="index" class="menu-item">
-						<h4>{{ item.namn }}</h4>
-						<p>{{ item.beskrivning }}</p>
+						<h4>{{ item.name }}</h4>
+						<p>{{ item.description }}</p>
 					</div>
 				</div>
 
@@ -222,8 +222,8 @@
 				<div class="category-item">
 					<h3>Gin & Tonic 135:-</h3>
 					<div v-for="(item, index) in gintonic" :key="index" class="menu-item">
-						<h4>{{ item.namn }}</h4>
-						<p>{{ item.beskrivning }}</p>
+						<h4>{{ item.name }}</h4>
+						<p>{{ item.description }}</p>
 					</div>
 				</div>
 				
@@ -231,8 +231,8 @@
 				<div class="category-item">
 					<h3>Vin och Bubblor</h3>
 					<div v-for="(item, index) in wine" :key="index" class="menu-item">
-						<h4>{{ item.namn }}</h4>
-						<p>{{ item.beskrivning }}</p>
+						<h4>{{ item.name }}</h4>
+						<p>{{ item.description }}</p>
 					</div>
 				</div>
 
@@ -244,8 +244,8 @@
 				<div class="category-item">
 					<h3>Mocktails 105:-</h3>
 					<div v-for="(item, index) in mocktails" :key="index" class="menu-item">
-						<h4>{{ item.namn }}</h4>
-						<p>{{ item.beskrivning }}</p>
+						<h4>{{ item.name }}</h4>
+						<p>{{ item.description }}</p>
 					</div>
 				</div>
 			</div>
@@ -256,8 +256,8 @@
 					<h3>Barsnacks</h3>
 					<div v-for="(item, index) in snacks" :key="index" class="menu-item bar-snacks">
 						<div>
-							<h4>{{ item.namn }}</h4>
-							<p>{{ item.beskrivning }}</p>
+							<h4>{{ item.name }}</h4>
+							<p>{{ item.description }}</p>
 						</div>
 						<span>{{ item.price }}:-</span>
 					</div>
