@@ -3,7 +3,7 @@
 	export default {
 		data() {
 			return {
-				
+
 				// Signature Drinks
 				signature: [
 					{
@@ -158,7 +158,7 @@
 						price: 45
 					}
 				]
-			} 
+			}
 		}
 	};
 </script>
@@ -226,7 +226,7 @@
 						<p>{{ item.description }}</p>
 					</div>
 				</div>
-				
+
 				<!-- Wine and Champagne -->
 				<div class="category-item">
 					<h3>Vin och Bubblor</h3>
@@ -271,7 +271,7 @@
 	.menu-container {
 		background-color: #283618;
 		display: grid;
-		grid-template-columns: repeat(10, 1fr); 
+		grid-template-columns: repeat(10, 1fr);
 		justify-content: center;
 		padding-bottom: 150px;
 		font-size: 0.9em;
@@ -318,11 +318,11 @@
 			.inner {
 				height: 100%;
 			}
-			
+
 			.inner-short {
 				margin-top: 30px;
 			}
-			
+
 			.inner, .inner-short {
 				background-color: #D7D3CB;
 				padding: 40px;
@@ -331,7 +331,7 @@
 			.category-item {
 				margin-bottom: 70px;
 			}
-			
+
 			.menu-item {
 				margin-bottom: 35px;
 			}
@@ -344,7 +344,7 @@
 		}
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 1023px) {
 		.menu-container {
 			display: flex;
 			flex-direction: column;

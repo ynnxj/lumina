@@ -9,7 +9,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
   &-text-box {
-    grid-column: 3 / 7;
+    grid-column: 2 / 7;
     h2 {
       font-family: "Montserrat", sans-serif;
       margin-top: 30px;
@@ -51,7 +51,6 @@
   }
   &-image {
     height: 700px;
-    width: 600px;
     grid-column: 8 / 12;
     img {
       width: 100%;
@@ -64,7 +63,7 @@
 //Laptop version 1 because of big amount of text
 @media (max-width: 1300px) {
   .section-five {
-    &TextBox {
+    &-text-box {
       grid-column: 2 / 8;
     }
   }
