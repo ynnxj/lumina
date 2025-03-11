@@ -35,7 +35,11 @@ main {
     }
 
     .btn-container {
-      .meny, 
+      a {
+        text-decoration: none;
+      }
+      
+      .menu, 
       .book {
         font-size: 16px;
         color: #F4C96D;
@@ -48,13 +52,13 @@ main {
         margin-bottom: 100px;
       }
 
-      .meny:hover, 
+      .menu:hover, 
       .book:hover {
         color: #283618;
         background-color: #F4C96D;
       }
 
-      .meny:focus,
+      .menu:focus,
       .book:focus {
         color: #283618;
         background-color: #E2A31C;
@@ -90,7 +94,7 @@ main {
       }
 
       .btn-container {
-        .meny, .book {
+        .menu, .book {
           display: block;
           margin-block: 32px;
         }
