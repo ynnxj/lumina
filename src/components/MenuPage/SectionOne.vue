@@ -5,7 +5,9 @@
 			<img class="header-img" src="/src/assets/images/images-and-videos/menu-page/jigger-pour.jpg" alt="A male bartender with short dark brown hair pouring liquid into a jigger behind a bar" loading="lazy" width="3500" height="2333">
 			
 			<!-- Transparent Menu Logo -->
-			<img class="menu-logo" src="/src/assets/images/images-and-videos/menu-page/menu-logo.svg" alt="Lumina Menu Logo" loading="lazy">
+			<h2>
+				<img class="menu-logo" src="/src/assets/images/images-and-videos/menu-page/menu-logo.svg" alt="Lumina Menu Logo" loading="lazy">
+			</h2>
 	</div>
 </template>
 
@@ -30,7 +32,7 @@
 		}
 
 		.menu-logo {
-			margin-bottom: 250px;
+			margin-bottom: 150px;
 			width: 438px;
       height: 98px;
 		}
