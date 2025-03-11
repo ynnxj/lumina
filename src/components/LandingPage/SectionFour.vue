@@ -10,7 +10,7 @@
     section {
         background-color: #283618;
         display: grid;
-        grid-template-columns: repeat(12, 1fr); 
+        grid-template-columns: repeat(12, 1fr);
         gap: 32px;
         align-items: center;
         padding: 132px 32px;
@@ -21,10 +21,10 @@
         }
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1023px) {
         section {
             display: grid;
-            grid-template-columns: repeat(8, 1fr); 
+            grid-template-columns: repeat(8, 1fr);
             padding: 100px 32px;
 
             img:nth-child(2) {
@@ -37,8 +37,8 @@
         section {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            
-            img:nth-child(2), 
+
+            img:nth-child(2),
             img:nth-child(3) {
                 display: none;
             }
