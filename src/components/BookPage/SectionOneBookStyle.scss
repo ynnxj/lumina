@@ -24,13 +24,14 @@
 }
 
 //Tablet version
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .container {
-    height: 482px;
+    height: 50vh;
 
     .book-img {
       width: 336px;
       height: 79px;
+      margin-bottom: 80px;
     }
   }
 }
@@ -43,6 +44,7 @@
     .book-img {
       width: 312px;
       height: 63px;
+      margin-bottom: 40px;
     }
   }
 }
