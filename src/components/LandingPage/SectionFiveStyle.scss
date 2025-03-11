@@ -1,16 +1,15 @@
 .section-five {
   background-color: #d7d3cb;
   width: 100%;
-  height: 870px;
+  height: 800px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 32px;
   align-items: center;
-
+  padding-top: 32px;
+  padding-bottom: 32px;
   &-text-box {
-    width: 555px;
-    height: 741px;
-    grid-column: 3 / 5;
+    grid-column: 3 / 7;
     h2 {
       font-family: "Montserrat", sans-serif;
       margin-top: 30px;
@@ -51,17 +50,28 @@
     }
   }
   &-image {
-    width: 550px;
-    height: 741px;
+    height: 700px;
+    width: 600px;
     grid-column: 8 / 12;
     img {
       width: 100%;
       height: 100%;
+      object-fit: cover;
     }
   }
 }
 
-@media (max-width: 768px) {
+//Laptop version 1 because of big amount of text
+@media (max-width: 1300px) {
+  .section-five {
+    &TextBox {
+      grid-column: 2 / 8;
+    }
+  }
+}
+
+//Tablet version
+@media (max-width: 1023px) {
   .section-five {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -97,6 +107,7 @@
   }
 }
 
+//Mobile version
 @media (max-width: 480px) {
   .section-five {
     display: grid;

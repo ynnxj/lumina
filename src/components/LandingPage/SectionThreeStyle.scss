@@ -1,16 +1,16 @@
 .section-three {
   background-color: #d7d3cb;
   width: 100%;
-  height: 652px;
+  height: 752px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 32px;
   align-items: center;
-  grid-template-areas: ". . image image image image . text text text text . .";
+  
   &-image {
-    width: 448px;
-    height: 524px;
-    grid-area: image;
+    height: 624px;
+    width: 500px;
+    grid-column: 3 / 7;
     img {
       width: 100%;
       height: 100%;
@@ -18,9 +18,8 @@
     }
   }
   &-text-box {
-    width: 555px;
-    height: 524px;
-    grid-area: text;
+    grid-column: 8 / 12;
+    width: 600px;
     h2 {
       font-family: "Montserrat", sans-serif;
       margin-top: 50px;
@@ -61,42 +60,12 @@
   }
 }
 
-@media (max-width: 1140px) {
+@media (max-width: 1023px) {
   .section-three {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     padding: 32px;
-    &-image {
-      grid-column: 1 / span 4;
-      width: 435px;
-      height: 540px;
-    }
-    &-text-box {
-      grid-column: 5 / span 8;
-      width: 100%;
-      h2 {
-        margin-top: 30px;
-        font-size: 1.9rem;
-      }
-      p {
-        font-size: 1.2rem;
-        margin-top: 40px;
-      }
-      button {
-        margin-top: 50px;
-        font-size: 1.8rem;
-        width: 200px;
-      }
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  .section-three {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    padding: 32px;
-    &-image {
+    &-image{
       grid-column: 1 / span 4;
       width: 335px;
       height: 540px;
@@ -133,7 +102,7 @@
     grid-template-areas: 
       "text text" 
       "image image";
-    &-image {
+    &-image{
       grid-area: image;
       width: 100%;
       height: 430px;
