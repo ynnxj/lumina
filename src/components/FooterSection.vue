@@ -1,6 +1,6 @@
 <template>
-  <div id="Footer" class="FooterSection">
-    <div class="LogoBox">
+  <div id="Footer" class="footer-section">
+    <div class="logo-box">
       <a href="#" @click.prevent="scrollToHeader" class="HeaderScroll">
         <svg
           width="36"
@@ -16,21 +16,21 @@
         </svg>
       </a>
     </div>
-    <div class="FooterInfoBox">
+    <div class="footer-info-box">
       <h2>Öppettider</h2>
       <p>Mån - ons - Stängt</p>
       <p>Tors - 16 - 00</p>
       <p>Fre - 15 - 01</p>
       <p>Lör - sön 12 - 02</p>
     </div>
-    <div class="FooterInfoBox">
+    <div class="footer-info-box">
       <h2>Konakt</h2>
       <p>070-123 45 67</p>
       <p>info@lumina.se</p>
       <p>Adressgatan 1</p>
       <p>Postort 123 45</p>
     </div>
-    <div class="FooterInfoBox">
+    <div class="footer-info-box">
       <h2>Socialt</h2>
       <Nav>
         <ul>
@@ -46,7 +46,7 @@
 
 <script setup>
 const scrollToHeader = () => {
-  const header = document.querySelector('.HeaderSection'); 
+  const header = document.querySelector('.header-section'); 
   if (header) {
       header.scrollIntoView ({ behavior: 'smooth' }); 
   }

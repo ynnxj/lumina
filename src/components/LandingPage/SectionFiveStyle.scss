@@ -1,4 +1,4 @@
-.SectionFive {
+.section-five {
   background-color: #d7d3cb;
   width: 100%;
   height: 870px;
@@ -7,7 +7,7 @@
   gap: 32px;
   align-items: center;
 
-  &TextBox {
+  &-text-box {
     width: 555px;
     height: 741px;
     grid-column: 3 / 5;
@@ -50,7 +50,7 @@
       }
     }
   }
-  &Image {
+  &-image {
     width: 550px;
     height: 741px;
     grid-column: 8 / 12;
@@ -62,13 +62,13 @@
 }
 
 @media (max-width: 768px) {
-  .SectionFive {
+  .section-five {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     height: 100%;
     width: 100%;
     padding: 32px 32px;
-    &TextBox {
+    &-text-box {
       grid-column: 1 / 5;
       width: 300px;
       height: 100%;
@@ -85,7 +85,7 @@
         margin-right: 0;
       }
     }
-    &Image {
+    &-image {
       grid-column: 5 / 9;
       width: 100%;
       height: 100%;
@@ -98,14 +98,14 @@
 }
 
 @media (max-width: 480px) {
-  .SectionFive {
+  .section-five {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 100%;
     width: 100%;
     gap: 32px;
     padding: 32px 32px;
-    &TextBox {
+    &-text-box {
       grid-column: 1 / span 2;
       width: 100%;
       height: 100%;
@@ -121,7 +121,7 @@
         margin-right: 0;
       }
     }
-    &Image {
+    &-image {
       grid-column: span 2;
       width: 100%;
       height: 100%;
