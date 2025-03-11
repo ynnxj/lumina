@@ -6,9 +6,8 @@
   grid-template-columns: repeat(12, 1fr);
   gap: 32px;
   align-items: center;
-  grid-template-areas: ". . image image image image . text text text text . .";
+  grid-template-areas: ". image image image image . text text text text text .";
   &Image {
-    width: 448px;
     height: 524px;
     grid-area: image;
     img {
@@ -18,8 +17,6 @@
     }
   }
   &TextBox {
-    width: 555px;
-    height: 524px;
     grid-area: text;
     h2 {
       font-family: "Montserrat", sans-serif;
@@ -61,37 +58,7 @@
   }
 }
 
-@media (max-width: 1140px) {
-  .SectionThree {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    padding: 32px;
-    &Image {
-      grid-column: 1 / span 4;
-      width: 435px;
-      height: 540px;
-    }
-    &TextBox {
-      grid-column: 5 / span 8;
-      width: 100%;
-      h2 {
-        margin-top: 30px;
-        font-size: 1.9rem;
-      }
-      p {
-        font-size: 1.2rem;
-        margin-top: 40px;
-      }
-      button {
-        margin-top: 50px;
-        font-size: 1.8rem;
-        width: 200px;
-      }
-    }
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .SectionThree {
     display: grid;
     grid-template-columns: repeat(8, 1fr);

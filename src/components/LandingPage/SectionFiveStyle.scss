@@ -8,9 +8,8 @@
   align-items: center;
 
   &TextBox {
-    width: 555px;
     height: 741px;
-    grid-column: 3 / 5;
+    grid-column: 2 / 7;
     h2 {
       font-family: "Montserrat", sans-serif;
       margin-top: 30px;
@@ -51,8 +50,6 @@
     }
   }
   &Image {
-    width: 550px;
-    height: 741px;
     grid-column: 8 / 12;
     img {
       width: 100%;
@@ -61,7 +58,17 @@
   }
 }
 
-@media (max-width: 768px) {
+//Laptop version 1 because of big amount of text
+@media (max-width: 1300px) {
+  .SectionFive {
+    &TextBox {
+      grid-column: 2 / 8;
+    }
+  }
+}
+
+//Tablet version
+@media (max-width: 1023px) {
   .SectionFive {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -97,6 +104,7 @@
   }
 }
 
+//Mobile version
 @media (max-width: 480px) {
   .SectionFive {
     display: grid;

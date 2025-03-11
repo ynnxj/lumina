@@ -20,7 +20,7 @@ body, html {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto auto auto auto;
     gap: 20px;
-    width: 90%;
+    width: 100%;
     align-items: center;
     color: #D7D3CB;
     margin: 0 auto;
@@ -32,7 +32,7 @@ body, html {
     color: #F4C96D;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    margin-top: 60px;
+    margin-top: 50px;
     font-weight: 600;
   }
 
@@ -77,13 +77,25 @@ body, html {
     }
   }
 
+  // ----Laptop version 1---- //
+  @media (max-width: 1300px) {
+    .history-drinks {
+      margin-top: -5rem;
+  
+      .history-drinks-image {
+        width: 150px;
+      }
+    }
+  }
+
   // ----Tablet---- //
-  @media (max-width: 1024px) {
+  @media (max-width: 1023px) {
     .history-container {
       grid-template-columns: repeat(8, 1fr);
       align-items: center;
       max-width: 100%;
       margin: 0 auto;
+      padding-inline: 32px;
     }
 
     .lumina-history {

@@ -7,7 +7,6 @@
             <router-link to="/book">
                 <button>Boka Bord</button>
             </router-link>
-            
         </div>
         <div class="SectionFiveImage">
             <img loading="lazy" src="/src/assets/images/images-and-videos/home-page/serving.jpg" alt="Serving Lumina" width="2333" height="3500">
