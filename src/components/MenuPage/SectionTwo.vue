@@ -1,7 +1,7 @@
 <template>
 	<div>
-			<h2>Vårt Koncept</h2>
-			<p>Lorem ipsum dolor sit amet consectetur. Elementum amet mattis in placerat placerat elit maecenas. Fermentum placerat volutpat diam purus justo. Accumsan eget vehicula eget amet arcu nibh.  Vulputate dictumst pulvinar ipsum mauris feugiat.</p>
+    <h2>Vårt Koncept</h2>
+    <p>Lorem ipsum dolor sit amet consectetur. Elementum amet mattis in placerat placerat elit maecenas. Fermentum placerat volutpat diam purus justo. Accumsan eget vehicula eget amet arcu nibh.  Vulputate dictumst pulvinar ipsum mauris feugiat.</p>
 	</div>
 </template>
 
@@ -31,7 +31,7 @@
 	@media (max-width: 765px) {
 		div {
 			padding: 30px;
-			
+
 			h2 {
 				margin-top: 35px;
 			}
