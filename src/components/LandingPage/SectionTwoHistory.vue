@@ -18,11 +18,11 @@
         </p>
       </div>
       <div class="history-image-container">
-        <img class="history-main-image" src="/src/assets/images/images-and-videos/home-page/daniel-tending-the-bar.jpg" alt="Daniel Tending Lumina Bar"/>
+        <img loading="lazy" class="history-main-image" src="/src/assets/images/images-and-videos/home-page/daniel-tending-the-bar.jpg" alt="Daniel Tending Lumina Bar" width="2333" height="3500"/>
       </div>
 
       <div class="history-drinks">
-        <img class="history-drinks-image" src="/src/assets/images/images-and-videos/home-page/drinks.png" alt="Fyra drinkar"/>
+        <img loading="lazy" class="history-drinks-image" src="/src/assets/images/images-and-videos/home-page/drinks.png" alt="Fyra drinkar"/>
       </div>
     </div>
   </section>
