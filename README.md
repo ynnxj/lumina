@@ -34,6 +34,19 @@ Designen har tagits fram i Figma och finns att hitta [här](https://www.figma.co
 
 **Client:** <br>![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)![VUE](https://img.shields.io/badge/Vue%20js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 
+## Design Authors 
+
+- [@Agnes Wilson](https://github.com/AgnesWilson)
+
+- [@Moa Magnfors](https://github.com/mainforce)
+
+- [@Olivia Almseger](https://github.com/oliviaalmseger)
+
+- [@Nicole Sjöberg-Silfverling]()
+
+- [@Alice Swahn]()
+
+
 
 ## Authors
 
