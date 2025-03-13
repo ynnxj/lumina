@@ -19,5 +19,5 @@
 </template>
 
 <style scoped>
-  @import 'SectionThreeStyle.scss';
+  @import 'SectionThreeSignaturStyle.scss';
 </style>

@@ -1,15 +1,15 @@
 <script setup>
 	import HeaderSection from '@/components/HeaderSection.vue';
-	import SectionOne from '@/components/MenuPage/SectionOne.vue';
-	import SectionTwo from '@/components/MenuPage/SectionTwo.vue';
-	import SectionThree from '@/components/MenuPage/SectionThree.vue';
+	import SectionOneMenu from '@/components/MenuPage/SectionOneMenu.vue';
+	import SectionTwoMenuConcept from '@/components/MenuPage/SectionTwoMenuConcept.vue';
+	import SectionThreeMenuDrinks from '@/components/MenuPage/SectionThreeMenuDrinks.vue';
 	import FooterSection from '@/components/FooterSection.vue';
 </script>
 
 <template>
 	<HeaderSection />
-	<SectionOne />
-	<SectionTwo />
-	<SectionThree />
+	<SectionOneMenu />
+	<SectionTwoMenuConcept />
+	<SectionThreeMenuDrinks />
 	<FooterSection />
 </template>

@@ -8,5 +8,5 @@
 </template>
 
 <style scoped>
-  @import 'SectionSixStyle.scss';
+  @import 'SectionSixQuoteStyle.scss';
 </style>

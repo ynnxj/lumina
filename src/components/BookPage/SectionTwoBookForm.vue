@@ -8,8 +8,8 @@
           Fermentum placerat volutpat diam purus justo. Accumsan eget vehicula eget amet arcu nibh.
         </p>
         <p class="booking-info-under">
-          Magna sit porttitor et nibh proin sagittis nullam quam lacinia. Justo est ac neque amet suspendisse 
-          pharetra lobortis tempus. Pharetra quis porta scelerisque vitae feugiat elementum pharetra at. 
+          Magna sit porttitor et nibh proin sagittis nullam quam lacinia. Justo est ac neque amet suspendisse
+          pharetra lobortis tempus. Pharetra quis porta scelerisque vitae feugiat elementum pharetra at.
           Scelerisque vulputate dictumst pulvinar ipsum mauris feugiat.
         </p>
       </div>
@@ -24,43 +24,43 @@
         <form ref="bookingForm">
           <div class="form-group">
             <label for="name">Namn på bokningen*</label>
-            <input v-model="name" type="text" id="name" 
-                   :placeholder="showError && name.trim() === '' ? 'Nödvändig information' : 'Ditt namn'" 
+            <input v-model="name" type="text" id="name"
+                   :placeholder="showError && name.trim() === '' ? 'Nödvändig information' : 'Ditt namn'"
                    :class="{'error-placeholder': showError && name.trim() === ''}" />
           </div>
 
           <div class="form-group">
             <label for="people">Antal personer*</label>
-            <input v-model="people" type="text" id="people" 
-                   :placeholder="showError && people.trim() === '' ? 'Nödvändig information' : 'Antal personer'" 
+            <input v-model="people" type="text" id="people"
+                   :placeholder="showError && people.trim() === '' ? 'Nödvändig information' : 'Antal personer'"
                    :class="{'error-placeholder': showError && people.trim() === ''}" />
           </div>
 
           <div class="form-group">
             <label for="date">Önskat datum*</label>
-            <input v-model="date" type="text" id="date" 
-                   :placeholder="showError && date.trim() === '' ? 'Nödvändig information' : 'Datum'" 
+            <input v-model="date" type="text" id="date"
+                   :placeholder="showError && date.trim() === '' ? 'Nödvändig information' : 'Datum'"
                    :class="{'error-placeholder': showError && date.trim() === ''}" />
           </div>
 
           <div class="form-group">
             <label for="time">Önskad tid*</label>
-            <input v-model="time" type="text" id="time" 
-                   :placeholder="showError && time.trim() === '' ? 'Nödvändig information' : 'Tid'" 
+            <input v-model="time" type="text" id="time"
+                   :placeholder="showError && time.trim() === '' ? 'Nödvändig information' : 'Tid'"
                    :class="{'error-placeholder': showError && time.trim() === ''}" />
           </div>
 
           <div class="form-group">
             <label for="email">Din e-mail*</label>
-            <input v-model="email" type="text" id="email" 
-                   :placeholder="showError && email.trim() === '' ? 'Nödvändig information' : 'Din e-post'" 
+            <input v-model="email" type="text" id="email"
+                   :placeholder="showError && email.trim() === '' ? 'Nödvändig information' : 'Din e-post'"
                    :class="{'error-placeholder': showError && email.trim() === ''}" />
           </div>
 
           <div class="form-group">
             <label for="phone">Ditt telefonnummer*</label>
-            <input v-model="phone" type="text" id="phone" 
-                   :placeholder="showError && phone.trim() === '' ? 'Nödvändig information' : 'Ditt telefonnummer'" 
+            <input v-model="phone" type="text" id="phone"
+                   :placeholder="showError && phone.trim() === '' ? 'Nödvändig information' : 'Ditt telefonnummer'"
                    :class="{'error-placeholder': showError && phone.trim() === ''}" />
           </div>
 
@@ -80,7 +80,7 @@
 
           <div class="form-buttons">
             <button type="button" class="btn-reset" @click="resetForm">Rensa</button>
-            <button type="submit" :class="['btn-submit', { 'btn-disabled': !isFormValid }]" 
+            <button type="submit" :class="['btn-submit', { 'btn-disabled': !isFormValid }]"
                     @click.prevent="validateForm">
               Skicka förfrågan
             </button>
@@ -103,12 +103,12 @@
   </div>
 </template>
 
-  
+
 <script setup>
 import { ref, computed, nextTick } from "vue";
 import bookImage from "@/assets/images/images-and-videos/booking-page/book.png";
 import pourImage from "@/assets/images/images-and-videos/booking-page/high-pour.jpg";
-import "./SectionTwoBooking.scss";
+import "./SectionTwoBookForm.scss";
 
 const bookingForm = ref(null);
 const showBookingModal = ref(false);
@@ -162,7 +162,7 @@ const closeModal = () => {
 
 const validateForm = () => {
   showError.value = true;
-  
+
   if (isFormValid.value) {
     showBookingModal.value = true;
     showError.value = false;
