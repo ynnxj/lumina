@@ -15,7 +15,7 @@
       </div>
 
       <div class="info-book">
-        <img class="book-image" :src="bookImage" alt="Uppslagen bok liggandes ner" />
+        <img loading="lazy" class="book-image" :src="bookImage" alt="Uppslagen bok liggandes ner" />
       </div>
     </section>
 
@@ -89,7 +89,7 @@
       </div>
 
       <div class="booking-image-container">
-        <img class="booking-image" :src="pourImage" alt="Bartender häller upp en drink från höjd" />
+        <img loading="lazy" class="booking-image" :src="pourImage" alt="Bartender häller upp en drink från höjd" width="2333" height="3500"  />
       </div>
     </section>
   </section>
