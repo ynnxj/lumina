@@ -168,4 +168,6 @@ const validateForm = () => {
     showError.value = false;
   }
 };
+
+handleBooking();
 </script>
