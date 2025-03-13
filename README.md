@@ -34,10 +34,58 @@ Designen har tagits fram i Figma och finns att hitta [här](https://www.figma.co
 
 ![Home Recording gif](/src/assets/images/screenshots/home-page-gif.gif)
 
+<details>
+<summary><strong>Landing Page</strong> <i>(6 images)</i></summary>
+
+##### Desktop
+![Desktop - Products](./DesktopScreenshots/DesktopLandingPagePart1.png)
+-
+![Desktop - Products](./DesktopScreenshots/UntitledDesktopLandingPage2.png)
+-
+![Desktop - Products](./DesktopScreenshots/DesktopLandingPagePart3.png)
+-
+![Desktop - Products](./DesktopScreenshots/DesktopLandingPagePart4.png)
+-
+![Desktop - Products](./DesktopScreenshots/DesktopLandingPagePart5.png)
+-
+![Desktop - Products](./DesktopScreenshots/DesktopLandingPagePart6.png)
+
+</details>
+-
+<details>
+<summary><strong>Menu page</strong> <i>(4 images)</i></summary>
+
+##### Desktop
+![Desktop - Products](./DesktopScreenshots/DesktopMenuPagePart1.png)
+-
+![Desktop - Products](./DesktopScreenshots/DesktopMenuPagePart2.png)
+-
+![Desktop - Products](./DesktopScreenshots/DesktopMenuPagePart3.png)
+-
+![Desktop - Products](./DesktopScreenshots/DesktopMenuPagePart4.png)
+-
+</details>
+-
+<details>
+<summary><strong>Boka Page</strong> <i>(3 images)</i></summary>
+
+##### Desktop
+![Desktop - Products](./DesktopScreenshots/DesktopBokaPagePart1.png)
+-
+![Desktop - Products](./DesktopScreenshots/DesktopBokaPagePart2.png)
+-
+![Desktop - Products](./DesktopScreenshots/DesktopBokaPagePart3.png)
+</details>
+
 
 ## Tech stack
 
 **Client:** <br>![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)![VUE](https://img.shields.io/badge/Vue%20js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+
+
+
+
+
 
 ## Design Authors 
 
