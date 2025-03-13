@@ -16,5 +16,5 @@
 </template>
 
 <style scoped>
-  @import 'SectionFiveStyle.scss';
+  @import 'SectionFiveVisitStyle.scss';
 </style>

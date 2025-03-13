@@ -8,5 +8,5 @@
 </template>
 
 <style scoped>
-  @import 'SectionOneBookStyle.scss';
+  @import 'SectionOneBook.scss';
 </style>

@@ -1,23 +1,23 @@
 <script setup>
   import HeaderSection from '@/components/HeaderSection.vue';
-  import SectionOne from '@/components/LandingPage/SectionOne.vue';
-  import SectionThree from '@/components/LandingPage/SectionThree.vue';
-  import SectionFour from '@/components/LandingPage/SectionFour.vue';
-  import SectionFive from '@/components/LandingPage/SectionFive.vue';
+  import SectionOneVideo from '@/components/LandingPage/SectionOneVideo.vue';
+  import SectionThreeSignatur from '@/components/LandingPage/SectionThreeSignatur.vue';
+  import SectionFourImages from '@/components/LandingPage/SectionFourImages.vue';
+  import SectionFiveVisit from '@/components/LandingPage/SectionFiveVisit.vue';
   import SectionTwoHistory from '@/components/LandingPage/SectionTwoHistory.vue';
-  import SectionSix from '@/components/LandingPage/SectionSix.vue';
+  import SectionSixQuote from '@/components/LandingPage/SectionSixQuote.vue';
   import CookieBanner from '@/components/LandingPage/CookieBanner.vue';
   import FooterSection from '@/components/FooterSection.vue';
 </script>
 
 <template>
   <HeaderSection />
-  <SectionOne />
+  <SectionOneVideo />
   <SectionTwoHistory />
-  <SectionThree />
-  <SectionFour />
-  <SectionFive />
-  <SectionSix />
+  <SectionThreeSignatur />
+  <SectionFourImages />
+  <SectionFiveVisit />
+  <SectionSixQuote />
   <CookieBanner />
   <FooterSection />
 </template>

@@ -28,5 +28,5 @@
 </template>
 
 <style scoped>
-  @import 'SectionOneStyle.scss';
+  @import 'SectionOneVideoStyle.scss';
 </style>
